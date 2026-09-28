@@ -1,15 +1,18 @@
 {
   "name": "music-five",
-  "version": "1.0.0",
-  "description": "Discord Music Bot",
+  "version": "2.0.0",
+  "description": "Professional Discord Music Bot - YouTube + Spotify",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },
   "dependencies": {
-    "discord.js": "latest",
-    "discord-player": "latest",
-    "@discord-player/extractor": "latest",
-    "dotenv": "latest"
+    "@discord-player/extractor": "7.2.0",
+    "@discordjs/opus": "^0.10.0",
+    "discord-player": "7.2.0",
+    "discord-player-youtubedlp": "^1.2.2",
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.2.3",
+    "ffmpeg-static": "^5.2.0"
   }
 }
